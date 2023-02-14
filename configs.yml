@@ -3,20 +3,28 @@ channels:
   - default
 dependencies:
   - python=3.10
+  - notebook
   - pip
-  - pip:
-    - gunicorn==20.1.0
-    - azure-storage-blob
-    - fastapi[all]==0.70.1
-    - azure-identity==1.7.0
-    - uvicorn[standard]==0.15.0
-    - notebook
-    - scikit-learn
-    - numpy
-    - pandas
-    - matplotlib
-    - lightgbm
-    - seaborn
-    - torch
-    - tensorflow
-    - torchvision
+  - notebook
+  - scikit-learn
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pytorch
+  - tensorflow
+  - torchvision
+  # - pip:
+  #   - gunicorn==20.1.0
+  #   - azure-storage-blob
+  #   - fastapi[all]==0.70.1
+  #   - azure-identity==1.7.0
+  #   - uvicorn[standard]==0.15.0
+  #   - scikit-learn
+  #   - numpy
+  #   - pandas
+  #   - matplotlib
+  #   - seaborn
+  #   - torch
+  #   - tensorflow
+  #   - torchvision
