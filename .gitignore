@@ -3,3 +3,6 @@ condaenv.q7hzn9l2.requirements.txt
 condaenv.sp5znjg4.requirements.txt.venv
 condaenv.lyz876jj.requirements.txt
 notebooks\.ipynb_checkpoints
+condaenv.7r6lvsex.requirements.txt
+data/*
+data\*

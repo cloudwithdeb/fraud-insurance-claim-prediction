@@ -7,6 +7,4 @@ scikit-learn
 numpy
 pandas
 lightgbm
-torch
 tensorflow
-torchvision
